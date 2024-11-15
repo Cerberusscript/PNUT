@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solana Wallet Connect</title>
-  <!-- Link to the CSS file -->
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="./index.js"></script
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>$PNUT Token - The Sweetest Token in Crypto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>Connect Your Solana Wallet</h1>
-    <button id="connectWalletButton">Connect Phantom/Trust Wallet</button>
-    <p id="message"></p>
-  </div>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>$PNUT</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#airdrop">Airdrop</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Include @solana/web3.js using CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.67.1/lib/index.iife.js"></script>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Sweetest Token in Crypto!</h1>
+            <p>Get your $PNUT Tokens today. Fast, secure, and rewarding.</p>
+            <button class="connect-wallet">Connect Wallet</button>
+        </div>
+    </section>
 
-  <!-- Include WalletConnect JavaScript for integration -->
-  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/client/dist/umd/index.min.js"></script>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="content">
+            <h2>What is $PNUT Token?</h2>
+            <p>$PNUT is a fun, community-driven token built to bring rewards, growth, and a sweet experience for all holders. Join the movement and earn rewards as we grow!</p>
+        </div>
+    </section>
 
-  <!-- Link to the JavaScript file -->
-  <script src="app.js"></script>
+    <!-- Airdrop Section -->
+    <section id="airdrop" class="airdrop">
+        <div class="content">
+            <h2>Claim Your Airdrop!</h2>
+            <p>Get your hands on free $PNUT tokens by simply connecting your wallet and claiming.</p>
+            <button id="claim-airdrop" disabled>Claim Airdrop</button>
+            <p id="status"></p>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <h2>Our Roadmap</h2>
+        <ul>
+            <li>Launch token</li>
+            <li>Community-building and marketing</li>
+            <li>New features: Staking and Governance</li>
+            <li>Partnerships with DEXes and CEXes</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch with the $PNUT team.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 $PNUT Token | All Rights Reserved</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="airdrop.js"></script>
 </body>
 </html>
