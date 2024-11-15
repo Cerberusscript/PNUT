@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solana Wallet Connect</title>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Connect Your Solana Wallet</h1>
+    <button id="connectWalletButton">Connect Phantom/Trust Wallet</button>
+    <p id="message"></p>
+  </div>
+
+  <!-- Include @solana/web3.js using CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.67.1/lib/index.iife.js"></script>
+
+  <!-- Include WalletConnect JavaScript for integration -->
+  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/client/dist/umd/index.min.js"></script>
+
+  <!-- Link to the JavaScript file -->
+  <script src="app.js"></script>
+</body>
+</html>
